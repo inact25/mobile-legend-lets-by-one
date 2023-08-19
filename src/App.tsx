@@ -176,7 +176,7 @@ return (
         </Row>
 
         <Modal
-            title="Pengaturan"
+            title="Setting"
             open={open}
             onOk={hideModal}
             onCancel={hideModal}
