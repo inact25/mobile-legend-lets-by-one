@@ -1,5 +1,5 @@
 import './App.css'
-import {Avatar, Button, Card, Checkbox, Col, Input, Modal, Row} from "antd";
+import {Avatar, Button, Card, Checkbox, Col, Input, Modal, Row, Tooltip} from "antd";
 import {heroList, lastUpdates} from "./constant/herolist";
 import {useEffect, useState} from "react";
 import Loader from "./assets/loader.gif"
@@ -76,130 +76,144 @@ function App() {
     }
 
 
-useEffect(() => {
-    const intervalId = setInterval(() => {
-        if (countdown > 0) {
-            setCountdown(prevCountdown => prevCountdown - 0.5);
-        }
-    }, 500);
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            if (countdown > 0) {
+                setCountdown(prevCountdown => prevCountdown - 0.5);
+            }
+        }, 500);
 
-    return () => {
-        clearInterval(intervalId);
-    };
-}, [countdown]);
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, [countdown]);
 
-return (
-    <>
-        <Row gutter={24} justify='center' align='middle' style={{marginBottom: "3rem"}}>
-            <Col span={10}>
-                <Input onFocus={() => setIsPlayerOneErr(false)} onChange={e => setPlayerOne(e.target.value)}
-                       value={playerOne} size='large'
-                       style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
-                       placeholder="Player 1 name"/>
-                <span
-                    style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerOneErr && "Player 1 name required"}</span>
+    return (
+        <>
+            <Row gutter={24} justify='center' align='middle' style={{marginBottom: "3rem"}}>
+                <Col span={10}>
+                    <Input onFocus={() => setIsPlayerOneErr(false)} onChange={e => setPlayerOne(e.target.value)}
+                           value={playerOne} size='large'
+                           style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
+                           placeholder="Player 1 name"/>
+                    <span
+                        style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerOneErr && "Player 1 name required"}</span>
 
-                {heroBattle[0] &&
-                    <Card
-                        cover={
-                            <img
-                                alt="example"
-                                src={countdown !== 0 ? Loader : heroBattle[0]?.hero_banner}
+                    {heroBattle[0] &&
+                        <Card
+                            cover={
+                                <img
+                                    alt="example"
+                                    src={countdown !== 0 ? Loader : heroBattle[0]?.hero_banner}
+                                />
+                            }
+                        >
+                            <Card.Meta
+                                avatar={<Avatar src={countdown !== 0 ? Logos : heroBattle[0]?.hero_avatar}/>}
+                                title={<span style={{
+                                    fontSize: 18,
+                                    fontWeight: "600"
+                                }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[0]?.hero_name} (${heroBattle[0]?.hero_role})`}</span>}
+                                style={{textAlign: "start"}}
                             />
-                        }
-                    >
-                        <Card.Meta
-                            avatar={<Avatar src={countdown !== 0 ? Logos : heroBattle[0]?.hero_avatar}/>}
-                            title={<span style={{
-                                fontSize: 18,
-                                fontWeight: "600"
-                            }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[0]?.hero_name} (${heroBattle[0]?.hero_role})`}</span>}
-                            style={{textAlign: "start"}}
-                        />
-                    </Card>
-                }
+                        </Card>
+                    }
 
-            </Col>
-            <Col span={4}>
-                <div style={{fontSize: 38, fontWeight: "bold"}}>VS</div>
-                <div>
-                    <Button type="primary" shape="round" style={{
-                        paddingTop: ".75rem",
-                        paddingBottom: "2rem",
-                        fontWeight: "bold",
-                        marginTop: "3rem"
-                    }} onClick={() => showModal()} block>Setting</Button>
-                </div>
-            </Col>
-            <Col span={10}>
-                <Input onFocus={() => setIsPlayerTwoErr(false)} onChange={e => setPlayerTwo(e.target.value)}
-                       value={playerTwo} size='large'
-                       style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
-                       placeholder="Player 2 name"/>
-                <span
-                    style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerTwoErr && "Player 2 name required"}</span>
-                {heroBattle[1] &&
-                    <Card
-                        cover={
-                            <img
-                                alt="example"
-                                src={countdown !== 0 ? Loader : heroBattle[1]?.hero_banner}
+                </Col>
+                <Col span={4}>
+                    <div style={{fontSize: 38, fontWeight: "bold"}}>VS</div>
+                    <div>
+                        <Button type="primary" shape="round" style={{
+                            paddingTop: ".75rem",
+                            paddingBottom: "2rem",
+                            fontWeight: "bold",
+                            marginTop: "3rem"
+                        }} onClick={() => showModal()} block>Setting</Button>
+                    </div>
+                </Col>
+                <Col span={10}>
+                    <Input onFocus={() => setIsPlayerTwoErr(false)} onChange={e => setPlayerTwo(e.target.value)}
+                           value={playerTwo} size='large'
+                           style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
+                           placeholder="Player 2 name"/>
+                    <span
+                        style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerTwoErr && "Player 2 name required"}</span>
+                    {heroBattle[1] &&
+                        <Card
+                            cover={
+                                <img
+                                    alt="example"
+                                    src={countdown !== 0 ? Loader : heroBattle[1]?.hero_banner}
+                                />
+                            }
+                        >
+                            <Card.Meta
+                                avatar={<Avatar src={countdown !== 0 ? Logos : heroBattle[1]?.hero_avatar}/>}
+                                title={<span style={{
+                                    fontSize: 18,
+                                    fontWeight: "600"
+                                }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[1]?.hero_name} (${heroBattle[1]?.hero_role})`}</span>}
+                                style={{textAlign: "start"}}
                             />
-                        }
-                    >
-                        <Card.Meta
-                            avatar={<Avatar src={countdown !== 0 ? Logos : heroBattle[1]?.hero_avatar}/>}
-                            title={<span style={{
-                                fontSize: 18,
-                                fontWeight: "600"
-                            }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[1]?.hero_name} (${heroBattle[1]?.hero_role})`}</span>}
-                            style={{textAlign: "start"}}
-                        />
-                    </Card>
-                }
-            </Col>
-        </Row>
-        <Row style={{marginBottom: "3rem"}} gutter={[8, 8]} justify={'center'}>
-            {heroList.map(item =>
-                <Col key={item.hero_id}>
-                    <Avatar size='large' src={item.hero_avatar}/>
-                </Col>
-            )}
-        </Row>
-        <Row style={{marginBottom: "1rem"}}>
-            <Button type="primary" shape="round"
-                    style={{paddingTop: "1.25rem", paddingBottom: "2.5rem", fontWeight: "bold"}} block
-                    onClick={() => getBattleHero(heroList, 2)}>Let's By One</Button>
-        </Row>
-        <Row style={{marginBottom: "1rem"}} justify='center'>
-            Last Update: {lastUpdates}
-        </Row>
-
-        <Modal
-            title="Setting"
-            open={open}
-            onOk={hideModal}
-            onCancel={hideModal}
-            cancelButtonProps={{style: {display: "none"}}}
-        >
-            <Row style={{marginTop: "2rem"}}>
-                <Col span={24}>
-                    <Checkbox checked={mustDifferent} onChange={e => setMustDiferent(e.target.checked)}>Player 1 and
-                        Player 2 Hero Cant be Same</Checkbox>
-                </Col>
-                <Col span={24}>
-                    <Checkbox checked={mustSameRole} onChange={e => setMustSameRole(e.target.checked)}>Player
-                        1 and
-                        Player 2 Hero must have same role</Checkbox>
-                </Col>
-                <Col span={24}>
-                    <Checkbox checked={withoutLoading} onChange={e => setWithoutLoading(e.target.checked)}>Remove loading</Checkbox>
+                        </Card>
+                    }
                 </Col>
             </Row>
-        </Modal>
+            <Row style={{marginBottom: "3rem"}} gutter={[8, 8]} justify={'center'}>
+                {heroList.map(item =>
+                    <Col key={item.hero_id}>
+                        <Tooltip placement="top" title={
+                            <>
+                                <img src={item.hero_banner} alt={item.hero_name}
+                                     style={{width: "100%", height: 135, objectFit: "cover"}}/>
+                                <div style={{padding: 8}}>
+                                    <p>Name : {item.hero_name}</p>
+                                    <p>Role : {item.hero_role}</p>
+                                    <p>Specialy : {item.hero_specially}</p>
+                                </div>
+                                <Button type="primary" shape="round" block>Detail</Button>
+                            </>
+                        }>
+                            <Avatar size='large' src={item.hero_avatar}/>
+                        </Tooltip>
+                    </Col>
+                )}
+            </Row>
+            <Row style={{marginBottom: "1rem"}}>
+                <Button type="primary" shape="round"
+                        style={{paddingTop: "1.25rem", paddingBottom: "2.5rem", fontWeight: "bold"}} block
+                        onClick={() => getBattleHero(heroList, 2)}>Let's By One</Button>
+            </Row>
+            <Row style={{marginBottom: "1rem"}} justify='center'>
+                Last Update: {lastUpdates}
+            </Row>
 
-    </>
-)
+            <Modal
+                title="Setting"
+                open={open}
+                onOk={hideModal}
+                onCancel={hideModal}
+                cancelButtonProps={{style: {display: "none"}}}
+            >
+                <Row style={{marginTop: "2rem"}}>
+                    <Col span={24}>
+                        <Checkbox checked={mustDifferent} onChange={e => setMustDiferent(e.target.checked)}>Player 1 and
+                            Player 2 Hero Cant be Same</Checkbox>
+                    </Col>
+                    <Col span={24}>
+                        <Checkbox checked={mustSameRole} onChange={e => setMustSameRole(e.target.checked)}>Player
+                            1 and
+                            Player 2 Hero must have same role</Checkbox>
+                    </Col>
+                    <Col span={24}>
+                        <Checkbox checked={withoutLoading} onChange={e => setWithoutLoading(e.target.checked)}>Remove
+                            loading</Checkbox>
+                    </Col>
+                </Row>
+            </Modal>
+
+        </>
+    )
 }
 
 export default App
