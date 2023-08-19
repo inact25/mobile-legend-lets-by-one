@@ -301,8 +301,8 @@ export const heroList = [
         "hero_name": "Balmond",
         "hero_avatar": "https://indoch.s3.ml.moonlian.com/web/madmin/image_be884c14d560f6bc5827e2a663439f94.png",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpAwAaAPTfEAAG0FYO4cHo4453688",
-        "hero_role": "Tank",
-        "hero_specially": "Charge,Crowd Control"
+        "hero_role": "Fighter",
+        "hero_specially": "Damage,Regen"
     },
     {
         "hero_id": 44,

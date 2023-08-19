@@ -26,6 +26,7 @@ function App() {
     const [playerTwo, setPlayerTwo] = useState<string>("")
     const [isPlayerOneErr, setIsPlayerOneErr] = useState<boolean>(false)
     const [isPlayerTwoErr, setIsPlayerTwoErr] = useState<boolean>(false)
+    const [withoutLoading, setWithoutLoading] = useState<boolean>(false)
 
     const showModal = () => {
         setOpen(true);
@@ -49,7 +50,9 @@ function App() {
             return
         }
 
-        setCountdown(4.5)
+        const timer = withoutLoading ? 0 : 4.5
+
+        setCountdown(timer)
         const randomObjects: Hero[] = [];
 
         if (count >= array.length) {
@@ -92,7 +95,7 @@ return (
                 <Input onFocus={() => setIsPlayerOneErr(false)} onChange={e => setPlayerOne(e.target.value)}
                        value={playerOne} size='large'
                        style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
-                       placeholder="Masukkan Nama Pemain"/>
+                       placeholder="Player 1 name"/>
                 <span
                     style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerOneErr && "Player 1 name required"}</span>
 
@@ -125,14 +128,14 @@ return (
                         paddingBottom: "2rem",
                         fontWeight: "bold",
                         marginTop: "3rem"
-                    }} onClick={() => showModal()} block>Pengaturan</Button>
+                    }} onClick={() => showModal()} block>Setting</Button>
                 </div>
             </Col>
             <Col span={10}>
                 <Input onFocus={() => setIsPlayerTwoErr(false)} onChange={e => setPlayerTwo(e.target.value)}
                        value={playerTwo} size='large'
                        style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
-                       placeholder="Masukkan Nama Pemain"/>
+                       placeholder="Player 2 name"/>
                 <span
                     style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerTwoErr && "Player 2 name required"}</span>
                 {heroBattle[1] &&
@@ -188,6 +191,9 @@ return (
                     <Checkbox checked={mustSameRole} onChange={e => setMustSameRole(e.target.checked)}>Player
                         1 and
                         Player 2 Hero must have same role (beta)</Checkbox>
+                </Col>
+                <Col span={24}>
+                    <Checkbox checked={withoutLoading} onChange={e => setWithoutLoading(e.target.checked)}>Remove loading</Checkbox>
                 </Col>
             </Row>
         </Modal>
