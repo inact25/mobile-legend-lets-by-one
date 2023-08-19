@@ -852,7 +852,7 @@ export const heroList = [
         "hero_id": 112,
         "hero_name": "Natan",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/d48d72c81c740e59b3a67ed83a74c128.png?w=150-150-6d5846",
-        "hero_banner": "https://dailyspin.id/wp-content/uploads/2022/10/Skin-Natan.jpg",
+        "hero_banner": "https://i0.wp.com/esportsnesia.com/wp-content/uploads/2021/08/natan-mlbb-696x464.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Burst, Magic Damage"
     },
