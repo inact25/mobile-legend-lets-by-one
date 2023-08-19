@@ -8,8 +8,8 @@ import Logos from "./assets/logos.jpg"
 interface Hero {
     hero_id: number
     hero_name: string
-    hero_banner: string
     hero_avatar: string
+    hero_banner: string
     hero_role: string
     hero_specially: string
 }

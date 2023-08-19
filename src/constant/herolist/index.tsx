@@ -404,7 +404,7 @@ export const heroList = [
         "hero_id": 56,
         "hero_name": "Nana",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_08d0332be76ff7bdd894f7c7227be56c.png",
-        "herro_banner": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpCHQqAQt-pAACVpimQmbk4797986",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpCHQqAQt-pAACVpimQmbk4797986",
         "hero_role": "Mage,Support",
         "hero_specially": "Crowd Control,Reap"
     },
