@@ -18,9 +18,14 @@ function App() {
 
 
     const [mustDifferent, setMustDiferent] = useState(false)
+    const [mustSameRole, setMustSameRole] = useState(false)
     const [heroBattle, setHeroBattle] = useState<Hero[]>([]);
     const [open, setOpen] = useState(false)
-    const [countdown, setCountdown] = useState<number>(0); // Set initial countdown time in seconds
+    const [countdown, setCountdown] = useState<number>(0);
+    const [playerOne, setPlayerOne] = useState<string>("")
+    const [playerTwo, setPlayerTwo] = useState<string>("")
+    const [isPlayerOneErr, setIsPlayerOneErr] = useState<boolean>(false)
+    const [isPlayerTwoErr, setIsPlayerTwoErr] = useState<boolean>(false)
 
     const showModal = () => {
         setOpen(true);
@@ -30,23 +35,42 @@ function App() {
         setOpen(false);
     };
 
+    const matchesAny = (inputString: string, targetString: string): boolean => {
+        const inputValues: string[] = inputString.split(',').map(value => value.trim());
+        const targetValues: string[] = targetString.split(',').map(value => value.trim());
+
+        return inputValues.some(value => targetValues.includes(value));
+    }
+
     const getBattleHero = (array: Hero[], count: number) => {
+        if (!playerOne.length || !playerTwo.length) {
+            setIsPlayerOneErr(!playerOne.length)
+            setIsPlayerTwoErr(!playerTwo.length)
+            return
+        }
+
         setCountdown(4.5)
         const randomObjects: Hero[] = [];
 
         if (count >= array.length) {
-            return array; // Return all objects if count is greater or equal to array length
+            return array;
         }
 
         while (randomObjects.length < count) {
             const randomIndex = Math.floor(Math.random() * array.length);
             const randomObject = array[randomIndex];
 
-            if (!mustDifferent && !randomObjects.includes(randomObject)) {
+            if (mustDifferent && randomObjects.includes(randomObject)) {
                 randomObjects.push(randomObject);
-            } else {
+            } else if (mustSameRole && randomObjects.length) {
+                if (matchesAny(randomObjects[0].hero_role, randomObject.hero_role)) {
+                    randomObjects.push(randomObject);
+                }
+            }
                 randomObjects.push(randomObject);
             }
+
+
         }
 
         setHeroBattle(randomObjects)
@@ -69,8 +93,13 @@ function App() {
         <>
             <Row gutter={24} justify='center' align='middle' style={{marginBottom: "3rem"}}>
                 <Col span={10}>
-                    <Input size='large' style={{marginBottom: "2rem", padding: "1rem", fontWeight: 700}}
+                    <Input onFocus={() => setIsPlayerOneErr(false)} onChange={e => setPlayerOne(e.target.value)}
+                           value={playerOne} size='large'
+                           style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
                            placeholder="Masukkan Nama Pemain"/>
+                    <span
+                        style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerOneErr && "Player 1 name required"}</span>
+
                     {heroBattle[0] &&
                         <Card
                             cover={
@@ -85,7 +114,7 @@ function App() {
                                 title={<span style={{
                                     fontSize: 18,
                                     fontWeight: "600"
-                                }}>{countdown !== 0 ? "randomize heroes..." : heroBattle[0]?.hero_name}</span>}
+                                }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[0]?.hero_name} (${heroBattle[0]?.hero_role})`}</span>}
                                 style={{textAlign: "start"}}
                             />
                         </Card>
@@ -104,8 +133,12 @@ function App() {
                     </div>
                 </Col>
                 <Col span={10}>
-                    <Input size='large' style={{marginBottom: "2rem", padding: "1rem", fontWeight: 700}}
+                    <Input onFocus={() => setIsPlayerTwoErr(false)} onChange={e => setPlayerTwo(e.target.value)}
+                           value={playerTwo} size='large'
+                           style={{marginBottom: "1rem", padding: "1rem", fontWeight: 700}}
                            placeholder="Masukkan Nama Pemain"/>
+                    <span
+                        style={{marginBottom: "2rem", fontSize: 12, color: "crimson"}}>{isPlayerTwoErr && "Player 2 name required"}</span>
                     {heroBattle[1] &&
                         <Card
                             cover={
@@ -120,7 +153,7 @@ function App() {
                                 title={<span style={{
                                     fontSize: 18,
                                     fontWeight: "600"
-                                }}>{countdown !== 0 ? "randomize heroes..." : heroBattle[1]?.hero_name}</span>}
+                                }}>{countdown !== 0 ? "randomize heroes..." : `${heroBattle[1]?.hero_name} (${heroBattle[1]?.hero_role})`}</span>}
                                 style={{textAlign: "start"}}
                             />
                         </Card>
@@ -154,6 +187,11 @@ function App() {
                     <Col span={24}>
                         <Checkbox checked={mustDifferent} onChange={e => setMustDiferent(e.target.checked)}>Player 1 and
                             Player 2 Hero Cant be Same</Checkbox>
+                    </Col>
+                    <Col span={24}>
+                        <Checkbox checked={mustSameRole} onChange={e => setMustSameRole(e.target.checked)}>Player
+                            1 and
+                            Player 2 Hero must have same role (beta)</Checkbox>
                     </Col>
                 </Row>
             </Modal>
