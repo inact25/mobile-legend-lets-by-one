@@ -190,7 +190,7 @@ return (
                 <Col span={24}>
                     <Checkbox checked={mustSameRole} onChange={e => setMustSameRole(e.target.checked)}>Player
                         1 and
-                        Player 2 Hero must have same role (beta)</Checkbox>
+                        Player 2 Hero must have same role</Checkbox>
                 </Col>
                 <Col span={24}>
                     <Checkbox checked={withoutLoading} onChange={e => setWithoutLoading(e.target.checked)}>Remove loading</Checkbox>
