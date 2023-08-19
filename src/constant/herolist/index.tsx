@@ -748,7 +748,7 @@ export const heroList = [
         "hero_id": 94,
         "hero_name": "Popol and Kupa",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ca29a7735b2c9ae8cd38d745d4d18bcd.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/A5/Cq2Ixl7E1daAQNCCAADPoHsTYm4742.jpg",
+        "hero_banner": "https://media.suara.com/pictures/970x544/2022/11/04/89087-popol-dan-kupa-mobile-legends.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Push,Burst"
     },
@@ -772,7 +772,7 @@ export const heroList = [
         "hero_id": 96,
         "hero_name": "Luo Yi",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c9f30c0ebde489a34b70ba1064c6fb02.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/A7/Cq2Ixl7shFWAJ73nAAF5owmcBqA347.jpg",
+        "hero_banner": "https://news.vcgamers.com/wp-content/uploads/2022/01/holy-crystal-luo-yi1-1024x573.jpg",
         "hero_role": "Mage",
         "hero_specially": "Support, Crowd Control"
     },
