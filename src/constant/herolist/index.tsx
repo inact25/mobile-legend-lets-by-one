@@ -828,6 +828,7 @@ export const heroList = [
         "hero_id": 109,
         "hero_name": "Gloo",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/14a44f871e2d9e0aaf35149e6201fb8a.png?w=150-150-e2ddd3",
+        "hero_banner": "https://i1.wp.com/gemskul.com/wp-content/uploads/2022/06/gloo-mobile-legends.jpeg",
         "hero_role": "Tank",
         "hero_specially": "Regen, Control"
     },
@@ -835,6 +836,7 @@ export const heroList = [
         "hero_id": 110,
         "hero_name": "Beatrix",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_bc9478f69dafbf6ff27d8e19899637ca.png",
+        "hero_banner": "https://media.suara.com/pictures/653x366/2022/12/09/35777-beatrix-mobile-legends.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Finisher, Damage"
     },
@@ -842,6 +844,7 @@ export const heroList = [
         "hero_id": 111,
         "hero_name": "Phoveus",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/255c86f3a2ed403b6e889f5a9f43bae4.png?w=150-150-443f42",
+        "hero_banner": "https://oneesports.azureedge.net/cdn-data/2021/05/MLBB_Phoveus.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Chase, Crowd Control"
     },
@@ -849,6 +852,7 @@ export const heroList = [
         "hero_id": 112,
         "hero_name": "Natan",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/d48d72c81c740e59b3a67ed83a74c128.png?w=150-150-6d5846",
+        "hero_banner": "https://dailyspin.id/wp-content/uploads/2022/10/Skin-Natan.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Burst, Magic Damage"
     },
@@ -856,6 +860,7 @@ export const heroList = [
         "hero_id": 113,
         "hero_name": "Aulus",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/c5d496ae30a8f83e42e70a80f07240fa.jpg?w=150-150-401a19",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHmriGAKsBLAAETy2KCYPc651.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Fighter, Crowd Control"
     },
@@ -863,14 +868,15 @@ export const heroList = [
         "hero_id": 114,
         "hero_name": "Aamon",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/9d9bd7e99dcaad637c0c7b3280a84a31.png?w=150-150-f6fefd",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHmsS2ACtEkAAI-2s87iq0483.jpg",
         "hero_role": "Assassin",
         "hero_specially": "Burst, Magic Damage"
     },
     {
         "hero_id": 115,
         "hero_name": "Floryn",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHn14uAbWwAAAJU226tCao620.jpg",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/ddd105d16922b8122368acb0a8f3606f.png?w=150-150-1d2234",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHn14uAbWwAAAJU226tCao620.jpg",
         "hero_role": "Support",
         "hero_specially": "Poke, Guard"
     },
@@ -878,6 +884,7 @@ export const heroList = [
         "hero_id": 116,
         "hero_name": "Valentina",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/3fcfa9c74ac47800a3e13a5985d76e55.png?w=150-150-debef7",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHmscKAbSTKAAIRybgQisY320.jpg",
         "hero_role": "Mage",
         "hero_specially": "Burst, Finisher"
     },
@@ -885,6 +892,7 @@ export const heroList = [
         "hero_id": 117,
         "hero_name": "Edith",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/04d1a3a5e49f6a68604bab57ca96ab5c.png?w=150-150-312b1f",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHn0--AA5FcAAI93ZQxbpg015.jpg",
         "hero_role": "Tank, Marksman",
         "hero_specially": "Control, Burst"
     },
@@ -892,6 +900,7 @@ export const heroList = [
         "hero_id": 118,
         "hero_name": "Yin",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/64b128105615ba7902959147acfb803a.png?w=150-150-240603",
+        "hero_banner": "https://gamedaim.com/wp-content/uploads/2022/07/YIN-Mobile-Legends-800x450.jpg",
         "hero_role": "Fighter, Assassin",
         "hero_specially": "Burst, Control"
     },
@@ -899,6 +908,7 @@ export const heroList = [
         "hero_id": 119,
         "hero_name": "Melissa",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/ade52e885298e4a35320d3ab5900892b.png?w=150-150-453f3b",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmIfMTKAWts6AAErKeANNkU118.png",
         "hero_role": "Marksman",
         "hero_specially": "Finisher, Damage"
     },
@@ -906,6 +916,7 @@ export const heroList = [
         "hero_id": 120,
         "hero_name": "Xavier",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/3773d63a9d3f37b16106ad6eb7d32a39.png?w=150-150-fffffe",
+        "hero_banner": "https://cdn.oneesports.gg/cdn-data/2022/03/MLBB_Xavier_Preview-1024x576.jpg",
         "hero_role": "Mage",
         "hero_specially": "Damage, Guard"
     },
@@ -913,6 +924,7 @@ export const heroList = [
         "hero_id": 121,
         "hero_name": "Julian",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/7eb35b7780eaa94993aaada931b28adb.png?w=150-150-0d1318",
+        "hero_banner": "https://dailyspin.id/wp-content/uploads/2022/03/Hero-Baru-Julian-768x512.jpg",
         "hero_role": "Fighter, Damage",
         "hero_specially": "Chase, Magic Damage"
     },
@@ -920,6 +932,7 @@ export const heroList = [
         "hero_id": 122,
         "hero_name": "Fredrin",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/5157d0f32d6032a079d4437d3320dfe1.png?w=150-150-272323",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B9/Cq2IxmMZn3mAQ_GZAAFhCt_ICe4829.png",
         "hero_role": "Fighter, Tank",
         "hero_specially": "Damage, Chase"
     },
@@ -927,13 +940,15 @@ export const heroList = [
         "hero_id": 123,
         "hero_name": "Joy",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/41ea7c650a26473c193f21e20fd123d6.png?w=500-499-926a2d",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B9/Cq2IxmN96NSAavp7AAE-HS0Le_8930.png",
         "hero_role": "Assassin",
         "hero_specially": "Chase, Damage"
     },
     {
         "hero_id": 124,
-        "hero_name": "Arlot",
+        "hero_name": "ArlotT",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png?w=150-150-414254",
+        "hero_banner": "https://assets.indozone.news/do_692x516/content/2023/01/30/zosv8rQ/arlott-hero-baru-mobile-legends-bertipe-fighter-kapan-dijadwalkan-rilis71_700.jpg",
         "hero_role": "Fighter, Assassin",
         "hero_specially": "Charge, Burst"
     },
@@ -941,6 +956,7 @@ export const heroList = [
         "hero_id": 125,
         "hero_name": "Novaria",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/233e528d55a4c6083bd914c2768ac50d.png?w=150-150-704da9",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/BA/rBEABWRnKKmALjIWAAFXYXw1u7w820.jpg",
         "hero_role": "Mage",
         "hero_specially": "Burst, Poke"
     },
@@ -948,6 +964,7 @@ export const heroList = [
         "hero_id": 126,
         "hero_name": "Ixia",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/71151817eb86c12a1114508b5aaded13.jpg?w=128-128-fff3d3",
+        "hero_banner": "https://blog.unipin.com/wp-content/uploads/2023/08/hero-ixia-mlbb-wallpaper-696x392.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Finisher, Damage"
     },
