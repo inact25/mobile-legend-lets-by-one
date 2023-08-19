@@ -36,7 +36,7 @@ export const heroList = [
         "hero_id": 10,
         "hero_name": "Claude",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_99318a0a409d80f0f2d4b47ee63b6bda.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/4C/Cq2IxltpGsCAQ6vVAACafm-dqsM999.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/4C/Cq2IxltpGsCAQ6vVAACafm-dqsM999.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Reap,Burst"
     },
@@ -68,7 +68,7 @@ export const heroList = [
         "hero_id": 14,
         "hero_name": "Hanabi",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/e03a3e6f2eb41243b9d9d1cc1f89cadd.png?w=150-150-070b18",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/09/Cq2IxlrVkbaAF-E-AAHD5dxcXFg3574905",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/09/Cq2IxlrVkbaAF-E-AAHD5dxcXFg3574905",
         "hero_role": "Marksman",
         "hero_specially": "Regen,Burst Damage"
     },
@@ -76,7 +76,7 @@ export const heroList = [
         "hero_id": 15,
         "hero_name": "Gusion",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/0226b7cc6015fb50aa8ff4e1c9cf8c62.png?w=150-150-242539",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/03/Cq2IxlqP7xeAJX_ZAAF6-aQmyq01091541",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/03/Cq2IxlqP7xeAJX_ZAAF6-aQmyq01091541",
         "hero_role": "Assassin",
         "hero_specially": "Charge,Burst"
     },
@@ -100,7 +100,7 @@ export const heroList = [
         "hero_id": 18,
         "hero_name": "Lesley",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/da570e4daad77939a40f93c3c1034b83.png?w=150-150-320f16",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/01/Cq2Ixlp5XSWAS4sTAACF3KBj5bI2024031",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/01/Cq2Ixlp5XSWAS4sTAACF3KBj5bI2024031",
         "hero_role": "Marksman,Assassin",
         "hero_specially": "Reap,Burst Damage"
     },
@@ -108,7 +108,7 @@ export const heroList = [
         "hero_id": 19,
         "hero_name": "Kimmy",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c504661df2f22fd56f566402b00f91cd.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/63/Cq2IxlvQdfKAQs8FAACSno3WYko057.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/63/Cq2IxlvQdfKAQs8FAACSno3WYko057.jpg",
         "hero_role": "Marksman,Mage",
         "hero_specially": "Damage,Poke"
     },
@@ -116,7 +116,7 @@ export const heroList = [
         "hero_id": 20,
         "hero_name": "Hanzo",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_94a3512d03632badcf05fb858ac6d573.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/6A/Cq2IxlwPgJWAa7oEAABdF567lzI080.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/6A/Cq2IxlwPgJWAa7oEAABdF567lzI080.jpg",
         "hero_role": "Assassin",
         "hero_specially": "Reap,Burst"
     },
@@ -156,7 +156,7 @@ export const heroList = [
         "hero_id": 25,
         "hero_name": "Helcurt",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_2baf1efb2d414acedf4a89b6fa330ad2.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/07/rB_-LVpDtaGAWTYsAACGIUHEBlk2938231",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/07/rB_-LVpDtaGAWTYsAACGIUHEBlk2938231",
         "hero_role": "Assassin",
         "hero_specially": "Charge,Burst Damage"
     },
@@ -196,7 +196,7 @@ export const heroList = [
         "hero_id": 30,
         "hero_name": "Angela",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_feffcc9c39731586e645dbef2ce70afd.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/02/Cq2Ixlp62giAYZ6_AACCfqYsRU40233877",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/02/Cq2Ixlp62giAYZ6_AACCfqYsRU40233877",
         "hero_role": "Support",
         "hero_specially": "Regen,Poke"
     },
@@ -220,7 +220,7 @@ export const heroList = [
         "hero_id": 33,
         "hero_name": "Selena",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_0956f8d25d39312d0da5dca2cfca074c.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/3F/Cq2IxltEUuCAIgA9AACYGy-0dPc974.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/3F/Cq2IxltEUuCAIgA9AACYGy-0dPc974.jpg",
         "hero_role": "Mage,Assassin",
         "hero_specially": "Reap,Burst"
     },
@@ -260,7 +260,7 @@ export const heroList = [
         "hero_id": 38,
         "hero_name": "Chang'e",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_1a6b949d43ed33a7ad939ee4a0420b3e.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/22/Cq2IxlsMx2WADkO-AADUOFE6YCU843.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/22/Cq2IxlsMx2WADkO-AADUOFE6YCU843.jpg",
         "hero_role": "Mage",
         "hero_specially": "Poke,Reap"
     },
@@ -324,7 +324,7 @@ export const heroList = [
         "hero_id": 46,
         "hero_name": "Harith",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_6df4352d8f0d6ce429ad308d323c6206.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/67/Cq2IxlvhXhqAHSpgAAD50hPhJ_o145.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/67/Cq2IxlvhXhqAHSpgAAD50hPhJ_o145.jpg",
         "hero_role": "Mage",
         "hero_specially": "Charge,Burst Damage"
     },
@@ -340,7 +340,7 @@ export const heroList = [
         "hero_id": 48,
         "hero_name": "Belerick",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f9b01617505b9562d3bbc75e9d392c91.jpg",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/50/Cq2Ixlt6svSAHVi_AADQiWe7GjU557.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/50/Cq2Ixlt6svSAHVi_AADQiWe7GjU557.jpg",
         "hero_role": "Tank",
         "hero_specially": "Regen,Poke"
     },
@@ -348,7 +348,7 @@ export const heroList = [
         "hero_id": 49,
         "hero_name": "Kadita",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c8bec784a42a812db26ea3f34c029fdc.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/6D/Cq2IxlwYrb-AFA5KAAEgZvgbXvk427.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/6D/Cq2IxlwYrb-AFA5KAAEgZvgbXvk427.jpg",
         "hero_role": "Mage",
         "hero_specially": "Charge,Burst"
     },
@@ -372,7 +372,7 @@ export const heroList = [
         "hero_id": 52,
         "hero_name": "Lunox",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_823bd0fce2a95b8452d52750df8d35f5.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/58/Cq2IxluPeROAZWp1AAEJAdQijBY162.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/58/Cq2IxluPeROAZWp1AAEJAdQijBY162.jpg",
         "hero_role": "Mage",
         "hero_specially": "Damage,Poke"
     },
@@ -396,7 +396,7 @@ export const heroList = [
         "hero_id": 55,
         "hero_name": "Aldous",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_433f9653743e72e1e152428d26838f9e.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/48/Cq2IxltWy_SAWU4TAACfTAA7dJk424.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/48/Cq2IxltWy_SAWU4TAACfTAA7dJk424.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Push,Burst"
     },
@@ -404,7 +404,7 @@ export const heroList = [
         "hero_id": 56,
         "hero_name": "Nana",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_08d0332be76ff7bdd894f7c7227be56c.png",
-        "herro_banner": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpCHQqAQt-pAACVpimQmbk4797986",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpCHQqAQt-pAACVpimQmbk4797986",
         "hero_role": "Mage,Support",
         "hero_specially": "Crowd Control,Reap"
     },
@@ -420,7 +420,7 @@ export const heroList = [
         "hero_id": 58,
         "hero_name": "Pharsa",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_212e59ee7c8490397278ba68c8063a19.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/00/Cq2Ixlpll-aAQI1sAAB34j7sXxc3612403",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/00/Cq2Ixlpll-aAQI1sAAB34j7sXxc3612403",
         "hero_role": "Mage",
         "hero_specially": "Damage,Poke"
     },
@@ -444,7 +444,7 @@ export const heroList = [
         "hero_id": 61,
         "hero_name": "Valir",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_11c3284b5ea83dfd377f4d1b9724c960.jpg",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/04/Cq2IxlqmNA-ASd5OAACia8RAFOE8935592",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/04/Cq2IxlqmNA-ASd5OAACia8RAFOE8935592",
         "hero_role": "Mage",
         "hero_specially": "Poke,Burst"
     },
@@ -508,7 +508,7 @@ export const heroList = [
         "hero_id": 69,
         "hero_name": "Badang",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_686f5e16b9d129d7012751241943c2c9.png",
-        "hero_banner" :"https://img.mobilelegends.com/group1/M00/00/70/Cq2Ixlw9j-2AHA67AAEHWLRpOI4513.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/70/Cq2Ixlw9j-2AHA67AAEHWLRpOI4513.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Reap,Burst"
     },
@@ -548,7 +548,7 @@ export const heroList = [
         "hero_id": 74,
         "hero_name": "Jawhead",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_9bddad128d45821b7fd6abb9773d7c53.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/01/Cq2Ixlpuvg6AZYrUAAB8UvX4GSQ0007229",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/01/Cq2Ixlpuvg6AZYrUAAB8UvX4GSQ0007229",
         "hero_role": "Fighter",
         "hero_specially": "Charge,Burst Damage"
     },
@@ -556,7 +556,7 @@ export const heroList = [
         "hero_id": 75,
         "hero_name": "Leomord",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/5b4e0506472b28e1c6a02384c3054e68.png?w=150-150-797b82",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/5C/Cq2IxluwyL-AQwheAAC9gsGwxIw636.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/5C/Cq2IxluwyL-AQwheAAC9gsGwxIw636.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Push,Burst Damage"
     },
@@ -564,7 +564,7 @@ export const heroList = [
         "hero_id": 76,
         "hero_name": "Martis",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f6b745cc6347b4666c8ae31e5bb8edaa.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/05/Cq2Ixlq6ESWAIaeGAAG5-YfdANo3395863",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/05/Cq2Ixlq6ESWAIaeGAAG5-YfdANo3395863",
         "hero_role": "Fighter",
         "hero_specially": "Reap,Burst Damage"
     },
@@ -572,7 +572,7 @@ export const heroList = [
         "hero_id": 77,
         "hero_name": "Minsitthar",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/4ca3844586ef2cce730279ba44b6313b.png?w=150-150-31231d",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/69/Cq2Ixlv0FRCAIF6ZAAD0XEKxZEM139.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/69/Cq2Ixlv0FRCAIF6ZAAD0XEKxZEM139.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Initiator,Crowd Control"
     },
@@ -604,7 +604,7 @@ export const heroList = [
         "hero_id": 81,
         "hero_name": "Thamuz",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_5348df62801bc2fe1c093f8607c2e4a2.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/5A/Cq2IxlugsBSAHfefAACsFW0bZGk780.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/5A/Cq2IxlugsBSAHfefAACsFW0bZGk780.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Reap,Burst"
     },
@@ -628,7 +628,7 @@ export const heroList = [
         "hero_id": 84,
         "hero_name": "Kaja",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_7fe2a243687bb024b5728ea4bbf422fe.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/30/Cq2Ixlsor7qANjpkAACpokGW7U4672.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/30/Cq2Ixlsor7qANjpkAACpokGW7U4672.jpg",
         "hero_role": "Fighter,Support",
         "hero_specially": "Initiator,Charge"
     },
@@ -652,7 +652,7 @@ export const heroList = [
         "hero_id": 87,
         "hero_name": "Faramis",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/977b95bbb8a5dc634d741bdd5bda3b2f.png?w=150-150-2a3e44",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/88/Cq2IxlzmqriAUfUYAACka76WaSs606.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/88/Cq2IxlzmqriAUfUYAACka76WaSs606.jpg",
         "hero_role": "Support",
         "hero_specially": "Initiator,Crowd Control"
     },
@@ -692,7 +692,7 @@ export const heroList = [
         "hero_id": 92,
         "hero_name": "Uranus",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_03f3e7982542f805a4ec9e5659ed217e.png",
-        "hero_banner":"https://img.mobilelegends.com/group1/M00/00/11/Cq2IxlrxIumAcrKRAAGy0wBvcZc616.jpg",
+        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/11/Cq2IxlrxIumAcrKRAAGy0wBvcZc616.jpg",
         "hero_role": "Tank",
         "hero_specially": "Regen,Poke"
     },
@@ -702,7 +702,7 @@ export const heroList = [
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_9d0de850dd87bd7780be02ec20cad693.png",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/93/Cq2Ixl2Ec1yAQwj7AACx3YqOYsM648.jpg",
         "hero_role": "Fighter",
-        "hero_specially": "Push,Dammage"
+        "hero_specially": "Push,Damage"
     },
     {
         "hero_id": 94,
@@ -718,7 +718,7 @@ export const heroList = [
         "hero_avatar": "https://i.pinimg.com/originals/a6/c9/69/a6c96902f53b573069eb574160b15512.jpg",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/9B/Cq2Ixl3x-JyAVc0yAAb1_GVq3SM157.png",
         "hero_role": "Fighter",
-        "hero_specially": "Initiator,Magic,Dammage"
+        "hero_specially": "Initiator,Magic,Damage"
     },
     {
         "hero_id": 96,
@@ -726,7 +726,7 @@ export const heroList = [
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b7f2851b57e938c41ce32c00c685e0c8.jpg",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/9E/Cq2Ixl4XLOKAATE1AAB-Bng5Zpk409.jpg",
         "hero_role": "Support, Tank",
-        "hero_specially": "Crowd Control,Dammage"
+        "hero_specially": "Crowd Control,Damage"
     },
     {
         "hero_id": 97,
@@ -765,7 +765,7 @@ export const heroList = [
         "hero_name": "Benedetta",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f09a3869e4236053915d3757c1ff1f3f.jpg",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AA/Cq2Ixl-tBGWAfhl2AAaUgw9QM2s498.jpg",
-        "hero_role": "Assassins,Fighter",
+        "hero_role": "Assassin,Fighter",
         "hero_specially": "Chase,Burst"
     },
     {
@@ -813,7 +813,7 @@ export const heroList = [
         "hero_name": "Mathilda",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_74d09f52db9256502ecf2c32211a8102.jpg",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AB/Cq2Ixl_0Rb-ASjG-AAHxmroqeZo017.jpg",
-        "hero_role": "Support, Assassins",
+        "hero_role": "Support, Assassin",
         "hero_specially": "Initiator, Guard"
     },
     {
@@ -821,8 +821,8 @@ export const heroList = [
         "hero_name": "Paquito",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f3695c153689c30f8ebfd334931e0525.jpg",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B2/Cq2IxmAKtDOAe9QQAAIoQFvuZwA933.jpg",
-        "hero_role": "Fighter, Assassins",
-        "hero_specially": "Chase, Dammage"
+        "hero_role": "Fighter, Assassin",
+        "hero_specially": "Chase, Damage"
     },
     {
         "hero_id": 109,
@@ -869,7 +869,7 @@ export const heroList = [
         "hero_name": "Aamon",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/9d9bd7e99dcaad637c0c7b3280a84a31.png?w=150-150-f6fefd",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B7/Cq2IxmHmsS2ACtEkAAI-2s87iq0483.jpg",
-        "hero_role": "Assassins",
+        "hero_role": "Assassin",
         "hero_specially": "Burst, Magic Damage"
     },
     {
@@ -901,7 +901,7 @@ export const heroList = [
         "hero_name": "Yin",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/64b128105615ba7902959147acfb803a.png?w=150-150-240603",
         "hero_banner": "https://gamedaim.com/wp-content/uploads/2022/07/YIN-Mobile-Legends-800x450.jpg",
-        "hero_role": "Fighter, Assassins",
+        "hero_role": "Fighter, Assassin",
         "hero_specially": "Burst, Control"
     },
     {
@@ -941,7 +941,7 @@ export const heroList = [
         "hero_name": "Joy",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/41ea7c650a26473c193f21e20fd123d6.png?w=500-499-926a2d",
         "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B9/Cq2IxmN96NSAavp7AAE-HS0Le_8930.png",
-        "hero_role": "Assassins",
+        "hero_role": "Assassin",
         "hero_specially": "Chase, Damage"
     },
     {
@@ -949,7 +949,7 @@ export const heroList = [
         "hero_name": "ArlotT",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png?w=150-150-414254",
         "hero_banner": "https://assets.indozone.news/do_692x516/content/2023/01/30/zosv8rQ/arlott-hero-baru-mobile-legends-bertipe-fighter-kapan-dijadwalkan-rilis71_700.jpg",
-        "hero_role": "Fighter, Assassins",
+        "hero_role": "Fighter, Assassin",
         "hero_specially": "Charge, Burst"
     },
     {
