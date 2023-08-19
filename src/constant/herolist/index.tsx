@@ -836,7 +836,7 @@ export const heroList = [
         "hero_id": 110,
         "hero_name": "Beatrix",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_bc9478f69dafbf6ff27d8e19899637ca.png",
-        "hero_banner": "https://media.suara.com/pictures/653x366/2022/12/09/35777-beatrix-mobile-legends.jpg",
+        "hero_banner": "https://cdn.kincir.com/2/production/2022-12/beatrix~442b75c6-71e9-4829-a934-174796cd8426.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Finisher, Damage"
     },
