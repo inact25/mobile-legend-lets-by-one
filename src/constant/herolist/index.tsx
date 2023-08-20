@@ -948,7 +948,7 @@ export const heroList = [
         "hero_id": 120,
         "hero_name": "Arlot",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/bd640274b1595c6713c5c360c458a740.png?w=150-150-414254",
-        "hero_banner": "https://assets.indozone.news/do_692x516/content/2023/01/30/zosv8rQ/arlott-hero-baru-mobile-legends-bertipe-fighter-kapan-dijadwalkan-rilis71_700.jpg",
+        "hero_banner": "https://palpres.disway.id/upload/10defd26a6d75d56a215144766b83aae.jpeg",
         "hero_role": "Fighter, Assassin",
         "hero_specially": "Charge, Burst"
     },

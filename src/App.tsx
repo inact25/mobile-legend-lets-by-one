@@ -176,7 +176,7 @@ function App() {
                                 <Button type="primary" shape="round" block>Detail</Button>
                             </>
                         }>
-                            <Avatar size='large' src={item.hero_avatar}/>
+                            <Avatar size='large' src={item.hero_avatar} className="hero-avatar"/>
                         </Tooltip>
                     </Col>
                 )}
