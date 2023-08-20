@@ -44,7 +44,7 @@ export const heroList = [
         "hero_id": 13,
         "hero_name": "Clint",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_324e2b04393700944b2b54f2f6c939b5.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/A9/Cq2Ixl-G1AWAK-TSAADA3nbDHg0898.jpg",
+        "hero_banner": "https://cdn.oneesports.gg/cdn-data/sites/2/2021/09/MLBB_Clint.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Reap"
     },
@@ -52,7 +52,7 @@ export const heroList = [
         "hero_id": 84,
         "hero_name": "Ling",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_cdbe15a03ad4518f37d89c9e1cbf5c4e.png",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/99/Cq2Ixl3CL9KAE2tSAAGFxj5Wh1Q326.jpg",
+        "hero_banner": "https://cdn.vcgamers.com/news/wp-content/uploads/2022/08/Skin-Ling.png",
         "hero_role": "Assassin",
         "hero_specially": "Reap,Burst Damage"
     },
@@ -148,7 +148,7 @@ export const heroList = [
         "hero_id": 31,
         "hero_name": "Moskov",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_1ec30f6756a980ef6567f304484efb64.png",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/07/rB_-LVpDs8WAMApUAACHnMnJslA101310",
+        "hero_banner": "https://assets.skor.id/crop/0x0:0x0/x/photo/2022/04/19/1592433646.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Push,Burst Damage"
     },
@@ -364,7 +364,7 @@ export const heroList = [
         "hero_id": 87,
         "hero_name": "Baxia",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_22474dd14312ea67d5d2caa742bff2ec.png",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/95/Cq2Ixl2R1cuAN3rnAAFXC6fQeM8666.jpg",
+        "hero_banner": "https://www.ligagame.tv/images/baxia-mobile-legends-_3532c.jpg",
         "hero_role": "Tank",
         "hero_specially": "Initiator,Crowd Control"
     },
@@ -756,7 +756,7 @@ export const heroList = [
         "hero_id": 95,
         "hero_name": "Yu Zhong",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ce46392c8bb8714320dc51ee6c0b3e84.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/A8/Cq2Ixl8MDzOAYTdJAAGJKaZhxlA426.jpg",
+        "hero_banner": "https://cdn.oneesports.id/cdn-data/wp-content/uploads/sites/2/2020/06/MLBB_YuZhongSplashArt.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Regen,Damage"
     },
@@ -764,7 +764,7 @@ export const heroList = [
         "hero_id": 97,
         "hero_name": "Benedetta",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f09a3869e4236053915d3757c1ff1f3f.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AA/Cq2Ixl-tBGWAfhl2AAaUgw9QM2s498.jpg",
+        "hero_banner": "https://berita.yodu.id/wp-content/uploads/2021/09/hero-ml-benedetta_cr.jpg",
         "hero_role": "Assassin,Fighter",
         "hero_specially": "Chase,Burst"
     },
@@ -780,7 +780,7 @@ export const heroList = [
         "hero_id": 98,
         "hero_name": "Khaleed",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ac05d090c11fe4aefa6a7d004493fb65.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/A8/Cq2Ixl9pXlyAVn9EAACpsT8Kzhw458.jpg",
+        "hero_banner": "https://tebuireng.online/wp-content/uploads/2022/12/KhaleedML.jpg",
         "hero_role": "Fighter",
         "hero_specially": "Damage, Regen"
     },
@@ -788,7 +788,7 @@ export const heroList = [
         "hero_id": 99,
         "hero_name": "Barats",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_52c80b58ebb105e96295c11d9bfd9a9b.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AB/Cq2Ixl-_iUCAQOs3AALNya38dwM674.jpg",
+        "hero_banner": "https://cdn.oneesports.id/cdn-data/wp-content/uploads/sites/2/2020/09/MLBB_Barats.jpg",
         "hero_role": "Tank, Fighter",
         "hero_specially": "Damage, Crowd Control"
     },
@@ -796,7 +796,7 @@ export const heroList = [
         "hero_id": 100,
         "hero_name": "Brody",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b09c321e1766f686935775d11ad22787.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AA/Cq2Ixl-ZJ0mAadnRAAhy874yrX4103.jpg",
+        "hero_banner": "https://cdn.vcgamers.com/news/wp-content/uploads/2022/05/Hero-Brody.jpg",
         "hero_role": "Marksman",
         "hero_specially": "Burst, Finisher"
     },
@@ -812,7 +812,7 @@ export const heroList = [
         "hero_id": 102,
         "hero_name": "Mathilda",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_74d09f52db9256502ecf2c32211a8102.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/AB/Cq2Ixl_0Rb-ASjG-AAHxmroqeZo017.jpg",
+        "hero_banner": "https://berita7.co.id/wp-content/uploads/2023/03/Build-Mathilda-Tersakit-Versi-Top-Global-Sosok-Support-Inisiator-Terbaik.jpg",
         "hero_role": "Support, Assassin",
         "hero_specially": "Initiator, Guard"
     },
@@ -820,7 +820,7 @@ export const heroList = [
         "hero_id": 103,
         "hero_name": "Paquito",
         "hero_avatar": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f3695c153689c30f8ebfd334931e0525.jpg",
-        "hero_banner": "https://img.mobilelegends.com/group1/M00/00/B2/Cq2IxmAKtDOAe9QQAAIoQFvuZwA933.jpg",
+        "hero_banner": "https://cdn.oneesports.id/cdn-data/wp-content/uploads/sites/2/2021/01/MLBB_Paquito.jpg",
         "hero_role": "Fighter, Assassin",
         "hero_specially": "Chase, Damage"
     },
@@ -916,7 +916,7 @@ export const heroList = [
         "hero_id": 115,
         "hero_name": "Xavier",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/3773d63a9d3f37b16106ad6eb7d32a39.png?w=150-150-fffffe",
-        "hero_banner": "https://cdn.oneesports.gg/cdn-data/2022/03/MLBB_Xavier_Preview-1024x576.jpg",
+        "hero_banner": "https://api.duniagames.co.id/api/content/upload/file/5010262051648457388.jpg",
         "hero_role": "Mage",
         "hero_specially": "Damage, Guard"
     },
@@ -924,7 +924,7 @@ export const heroList = [
         "hero_id": 116,
         "hero_name": "Julian",
         "hero_avatar": "https://akmweb.youngjoygame.com/web/madmin/image/7eb35b7780eaa94993aaada931b28adb.png?w=150-150-0d1318",
-        "hero_banner": "https://dailyspin.id/wp-content/uploads/2022/03/Hero-Baru-Julian-768x512.jpg",
+        "hero_banner": "https://berita7.co.id/wp-content/uploads/2023/02/Build-Julian-Tersakit-Ala-Top-Global.jpg",
         "hero_role": "Fighter, Damage",
         "hero_specially": "Chase, Magic Damage"
     },

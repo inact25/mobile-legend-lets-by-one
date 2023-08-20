@@ -104,6 +104,7 @@ function App() {
                             cover={
                                 <img
                                     alt="example"
+                                    style={{maxHeight:290, objectFit:"cover"}}
                                     src={countdown !== 0 ? Loader : heroBattle[0]?.hero_banner}
                                 />
                             }
@@ -143,6 +144,7 @@ function App() {
                             cover={
                                 <img
                                     alt="example"
+                                    style={{maxHeight:290, objectFit:"cover"}}
                                     src={countdown !== 0 ? Loader : heroBattle[1]?.hero_banner}
                                 />
                             }
